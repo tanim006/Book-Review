@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Set light background and text color */
+body {
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+}
+
+/* Optional styling for specific components */
+header, footer {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
