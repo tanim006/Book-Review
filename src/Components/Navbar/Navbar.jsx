@@ -4,11 +4,12 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     const links = (
         <>
-            <a><NavLink to="/">Home</NavLink></a>
-            <a><NavLink to="/Listed-Books">Listed Books</NavLink></a>
-            <a><NavLink to="/Pages-to-Read">Pages to Read</NavLink></a>
-            <a><NavLink to="/Features">Features</NavLink></a>
-            <a><NavLink to="/New-Published">New Published</NavLink></a>
+            <button className="btn btn-outline   text-xl text-black"><NavLink to="/">Home</NavLink></button>
+            <button className="btn btn-outline   text-xl text-black"><NavLink to="/Listed-Books">Listed Books</NavLink></button>
+            <button className="btn btn-outline   text-xl text-black"><NavLink to="/Pages-to-Read">Pages to Read</NavLink></button>
+            <button className="btn btn-outline   text-xl text-black"><NavLink to="/Features">Features</NavLink></button>
+            <button className="btn btn-outline   text-xl text-black"><NavLink to="/New-Published">New Published</NavLink></button>
+            
         </>
     );
 
@@ -45,8 +46,10 @@ const Navbar = () => {
                 <div className="navbar-center hidden lg:flex gap-x-4">
                     {links}
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="navbar-end gap-x-5">
+                <button className="btn f bg-black text-xl text-white">Sign Up</button>
+                <button className="btn f bg-black text-xl text-white">Log In</button>
+
                 </div>
             </div>
         </div>

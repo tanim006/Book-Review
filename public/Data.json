@@ -1,0 +1,120 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image":"https://i.ibb.co.com/HnCSWyZ/kindpng-2592315-1.png",
+      "review": "A timeless classic that delves into themes of justice, morality, and the human condition.",
+      "rating": 4.8,
+      "category": "Fiction",
+      "tags": ["Classic", "Drama", "Historical"],
+      "publisher": "J.B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+
+
+
+
+    {
+      "bookId": 2,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image":"https://i.ibb.co.com/PWHJQV2/kindpng-5624060-1.png",
+      "review": "A chilling portrayal of a dystopian future that remains relevant today.",
+      "rating": 4.7,
+      "category": "Dystopian",
+      "tags": ["Dystopian", "Political", "Psychological"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 3,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image":"https://i.ibb.co.com/k1LrhMX/kindpng-2193744-1.png",
+
+      "review": "A captivating exploration of the American Dream and the decadence of the 1920s.",
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance", "Tragedy"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Catcher in the Rye",
+      "image":"https://i.ibb.co.com/CJHGBxT/kindpng-4945926-1.png",
+      "author": "J.D. Salinger",
+      "review": "A poignant tale of teenage rebellion and the search for identity.",
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Classic", "Young Adult", "Psychological"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 5,
+      "bookName": "Pride and Prejudice",
+      "image":"https://i.ibb.co.com/60z6kwT/kindpng-4022054-1.png",
+      "author": "Jane Austen",
+      "review": "A delightful romance that offers sharp insights into human behavior and societal norms.",
+      "rating": 4.9,
+      "category": "Romance",
+      "tags": ["Classic", "Romance", "Drama"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 6,
+      "bookName": "The Hobbit",
+      "image":"https://i.ibb.co.com/P4DtFW9/kindpng-1064993.png",
+      "author": "J.R.R. Tolkien",
+      "review": "An enchanting journey through Middle-earth that laid the foundation for modern fantasy.",
+      "rating": 4.8,
+      "category": "Fantasy",
+      "tags": ["Fantasy", "Adventure", "Classic"],
+      "publisher": "George Allen & Unwin",
+      "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 7,
+        "bookName": "The Hobbit",
+        "image":"https://i.ibb.co.com/9yjhvkH/pngwing-1.jpg",
+        "author": "J.R.R. Tolkien",
+        "review": "An enchanting journey through Middle-earth that laid the foundation for modern fantasy.",
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": ["Fantasy", "Adventure", "Classic"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 8,
+        "bookName": "The Hobbit",
+        "image":"https://i.ibb.co.com/mJNDHn2/kindpng-7318921.png",
+        "author": "J.R.R. Tolkien",
+        "review": "An enchanting journey through Middle-earth that laid the foundation for modern fantasy.",
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": ["Fantasy", "Adventure", "Classic"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 9,
+        "bookName": "The Hobbit",
+        "image":"https://i.ibb.co.com/P4DtFW9/kindpng-1064993.png",
+        "author": "J.R.R. Tolkien",
+        "review": "An enchanting journey through Middle-earth that laid the foundation for modern fantasy.",
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": ["Fantasy", "Adventure", "Classic"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+      }
+      
+      
+      
+
+  ]
+  
