@@ -5,7 +5,7 @@ const Navbar = () => {
     const links = (
         <>
             <button className="btn btn-outline   text-xl text-black"><NavLink to="/">Home</NavLink></button>
-            <button className="btn btn-outline   text-xl text-black"><NavLink to="/Listed-Books">Listed Books</NavLink></button>
+            <button className="btn btn-outline   text-xl text-black"><NavLink to="/ListedBooks">Listed Books</NavLink></button>
             <button className="btn btn-outline   text-xl text-black"><NavLink to="/Pages-to-Read">Pages to Read</NavLink></button>
             <button className="btn btn-outline   text-xl text-black"><NavLink to="/Features">Features</NavLink></button>
             <button className="btn btn-outline   text-xl text-black"><NavLink to="/New-Published">New Published</NavLink></button>

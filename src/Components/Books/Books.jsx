@@ -22,9 +22,15 @@ const Books = () => {
                     <Book key={book.bookId} book={book}></Book>
                 ))}
             </div>
-           <div className={dataLength==books.length && 'hidden'}>
-           <button onClick={()=>setDataLength(books.length)} className='btn btn-primary mx-auto'>Show All</button>
-           </div>
+            <div className={`flex justify-center items-center ${dataLength === books.length ? 'hidden' : ''}`}>
+  <button
+    onClick={() => setDataLength(books.length)}
+    className="btn btn-primary"
+  >
+    Show All
+  </button>
+</div>
+
         </div>
     );
 };

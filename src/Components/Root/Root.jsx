@@ -2,17 +2,17 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import Banner from '../Banner/Banner';
+import Footer from '../Footer/Footer';
 import Books from '../Books/Books';
 
 const Root = () => {
     return (
         <div>
             <div className='mx-auto pt-10 pl-20 pr-20'>
-            <Navbar></Navbar>
-            <Banner></Banner>
-            <Books></Books>
+                <Navbar></Navbar>
+                <Outlet />
             </div>
-            <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
