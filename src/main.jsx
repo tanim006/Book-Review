@@ -11,11 +11,14 @@ import BookDetails from './Components/BookDetails/BookDetails';
 import ListedBooks from './Components/ListedBooks/ListedBooks';
 import PagesToRead from './Components/PagesToRead/PagesToRead';
 import Features from './Components/Features/Features';
+import NewPublished from './Components/NewPublished/NewPublished';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root></Root>,
+    errorElement : <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -38,6 +41,10 @@ const router = createBrowserRouter([
         path : '/Features',
         element : <Features></Features>
       },
+      // {
+      //   path : '/NewPublished',
+      //   element : <NewPublished></NewPublished>
+      // },
       {
         path :'/ListedBooks',
         element : <ListedBooks></ListedBooks>,
