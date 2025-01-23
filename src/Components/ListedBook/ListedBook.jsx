@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PagesToRead from '../PagesToRead/PagesToRead';
 
 const ListedBook = ({book}) => {
-    const {image,bookId,author,category,review,tags,publisher,yearOfPublishing,rating,bookName} =book
+    const {image,bookId,author,category,review,tags,publisher,pages,yearOfPublishing,rating,bookName} =book
     return (
         <div>
             
@@ -20,6 +21,7 @@ const ListedBook = ({book}) => {
                <div className='flex items-center'>
                 <h1>Category : {category}</h1>
                 <h1>Rating : {rating}</h1>
+                <p>pages :{pages}</p>
                 <Link to= {`/books/${bookId}`}>
                 <button className="btn btn-secondary bg-black ml-5">View Details</button>
                 
@@ -32,6 +34,7 @@ const ListedBook = ({book}) => {
                </div>
 
             </div>
+         
         </div>
     );
 };

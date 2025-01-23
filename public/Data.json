@@ -9,7 +9,9 @@
       "category": "Fiction",
       "tags": ["Classic", "Drama", "Historical"],
       "publisher": "J.B. Lippincott & Co.",
-      "yearOfPublishing": 1960
+      "yearOfPublishing": 1960,
+      "pages" : 221
+
     },
 
 
@@ -25,7 +27,8 @@
       "category": "Dystopian",
       "tags": ["Dystopian", "Political", "Psychological"],
       "publisher": "Secker & Warburg",
-      "yearOfPublishing": 1949
+      "yearOfPublishing": 1949,
+      "pages" : 231
     },
     {
       "bookId": 3,
@@ -38,7 +41,8 @@
       "category": "Fiction",
       "tags": ["Classic", "Romance", "Tragedy"],
       "publisher": "Charles Scribner's Sons",
-      "yearOfPublishing": 1925
+      "yearOfPublishing": 1925,
+      "pages" : 123
     },
     {
       "bookId": 4,
@@ -50,7 +54,9 @@
       "category": "Fiction",
       "tags": ["Classic", "Young Adult", "Psychological"],
       "publisher": "Little, Brown and Company",
-      "yearOfPublishing": 1951
+      "yearOfPublishing": 1951,
+      "pages" : 432
+
     },
     {
       "bookId": 5,
@@ -62,7 +68,9 @@
       "category": "Romance",
       "tags": ["Classic", "Romance", "Drama"],
       "publisher": "T. Egerton, Whitehall",
-      "yearOfPublishing": 1813
+      "yearOfPublishing": 1813,
+      "pages" : 65
+
     },
     {
       "bookId": 6,
@@ -74,7 +82,8 @@
       "category": "Fantasy",
       "tags": ["Fantasy", "Adventure", "Classic"],
       "publisher": "George Allen & Unwin",
-      "yearOfPublishing": 1937
+      "yearOfPublishing": 1937,
+      "pages" : 245
     },
     {
         "bookId": 7,
@@ -86,7 +95,8 @@
         "category": "Fantasy",
         "tags": ["Fantasy", "Adventure", "Classic"],
         "publisher": "George Allen & Unwin",
-        "yearOfPublishing": 1937
+        "yearOfPublishing": 1937,
+      "pages" : 62
     },
     {
         "bookId": 8,
@@ -98,7 +108,8 @@
         "category": "Fantasy",
         "tags": ["Fantasy", "Adventure", "Classic"],
         "publisher": "George Allen & Unwin",
-        "yearOfPublishing": 1937
+        "yearOfPublishing": 1937,
+      "pages" : 56
     },
     {
         "bookId": 9,
@@ -110,7 +121,8 @@
         "category": "Fantasy",
         "tags": ["Fantasy", "Adventure", "Classic"],
         "publisher": "George Allen & Unwin",
-        "yearOfPublishing": 1937
+        "yearOfPublishing": 1937,
+      "pages" : 621
       }
       
       
